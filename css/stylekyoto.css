@@ -1,11 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #fff;
-    background-color: #000;
-    margin: 0;
-}
-/* Global styles */
+
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -43,12 +36,6 @@ header h1 {
     text-align: center;
 }
 
-/* Kyoto Ikebana */
-
-/* ajdioajodhasoidhashodasd */
-
-
-    /* Add this to your CSS */
     
     .main {
     display: flex;
@@ -65,34 +52,7 @@ header h1 {
     flex-direction: column;
     margin-bottom: 20px;
     }
-    
-    .main p {
-    max-width: 600px
 
-    }
-    <style>
-    section {
-      margin-bottom: 50px;
-    }
-    
-    .photo-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: -100px;
-    }
-    
-    .photo {
-      width: 300px;
-      height: 200px;
-      background-color: #eee;
-      background-image: url(path/to/photo.jpg);
-      background-size: cover;
-      background-position: center;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-      transform: rotate(-5deg) scale(1.1);
-      margin: 0 -100px;
-    }
-  </style>
 /* aboutikeabana */
 .image-gallery {
     display: flex;
@@ -102,47 +62,7 @@ header h1 {
   
   .image-gallery img {
     width: 100%;
-    height: auto;
+    height: 100%;
     margin: 10px;
     max-width: 300px;
   }
-
-  ikebana-2 {
-    text-align: center;
-}
-
-/* Add this to your CSS */
-
-.main2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  
-.main2 p {
-    max-width: 600px;
-    text-align: center;
-    margin-bottom: 50px;
-  }
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-    width: 500px;
-    border: 8px solid white;
-    box-sizing: border-box;
-    padding: 20px;
-    margin: auto; /* Add this to center the container in the page */
-    position: absolute; /* Add this to position the container */
-    top: 50%; /* Add this to move the container down by 50% of the viewport height */
-    transform: translateY(50%); /* Add this to center the container vertically */
-}
-
-.ikebana-2 p {
-    margin: 0;
-}
