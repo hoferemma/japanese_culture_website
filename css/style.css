@@ -60,6 +60,7 @@ header nav ul li a:hover {
 /* Main styles */
 main {
     padding: 20px;
+    text-align: center;
 }
 
 section {
@@ -75,7 +76,11 @@ section h2 {
 section p {
     line-height: 1.5;
 }
-
+.paragraph {
+    display: block;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
 /* Footer styles */
 footer {
     background-color: #000;
@@ -100,7 +105,15 @@ footer {
     height: auto;
     margin: 10px;
     max-width: 300px;
+
   }
+  .image-gallery img:hover .overlay {
+    opacity: 1;
+}
+
+.image-gallery img p {
+    font-family: times;
+}
 
 
 
@@ -154,3 +167,28 @@ nav a:hover {
 }
 
 /* Add this to your CSS */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none; /* add this line */
+    font-family: times;
+}
+.image-gallery a:hover .overlay {
+    opacity: 1;
+  }
+
+  .image-gallery a {
+    position: relative;
+    display: block;
+  }

@@ -66,3 +66,32 @@ header h1 {
     margin: 10px;
     max-width: 300px;
   }
+
+ .image-container {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.image-container p {
+    font-family: times;
+}
